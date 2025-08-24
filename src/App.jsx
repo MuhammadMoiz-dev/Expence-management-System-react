@@ -72,6 +72,7 @@ function App() {
           placeholder="Enter Amount"
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
+          
         />
 
         <select
